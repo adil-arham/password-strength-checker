@@ -3,6 +3,7 @@
 
 ## Project structure
 
+```text
 password-strength-checker/
 ├── README.md
 ├── password_checker.py
@@ -10,6 +11,8 @@ password-strength-checker/
 ├── .gitignore
 └── data/
     └── common_passwords.txt
+```
+
 
 ## What I learned
 
