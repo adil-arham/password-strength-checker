@@ -16,7 +16,6 @@ password-strength-checker/
 
 ## What I learned
 
-*(Draft. Edit it so it is true to your experience.)*
 
 - Modern guidance favors length and blocklists over complexity rules, and why:
   people respond to composition rules in predictable ways (`Password1!`).
