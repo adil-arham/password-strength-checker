@@ -173,7 +173,7 @@ def blocklist_candidates(password: str) -> set[str]:
     lowered = password.lower()
     stripped = lowered.rstrip(TRAILING_JUNK)
     candidates = {lowered, lowered.translate(LEET_TABLE)}
-    if stripped:  # don't add "" for passwords made only of digits/symbols
+    if stripped:
         candidates.add(stripped)
         candidates.add(stripped.translate(LEET_TABLE))
     return candidates
