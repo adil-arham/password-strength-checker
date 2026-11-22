@@ -9,8 +9,6 @@ password-strength-checker/
 ├── password_checker.py
 ├── test_password_checker.py
 ├── .gitignore
-└── data/
-    └── common_passwords.txt
 ```
 
 
